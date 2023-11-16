@@ -103,3 +103,11 @@ services:
       - /media/downloads/xteve:/media/xteve
     restart: unless-stopped
 ```
+
+As the download folder is shared between qbit and sonarr, sonarr can import the files directly to the media folder without needing to configure anything else
+
+Root folders on Sonarr can be set as the following:
+![Alt text](sonarrrootfolder.png)
+
+For downloading episodes with naming as TBA, you must set the following configurations:
+![Alt text](sonarrimporting.png)
