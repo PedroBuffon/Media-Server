@@ -106,8 +106,8 @@ services:
 
 As the download folder is shared between qbit and sonarr, sonarr can import the files directly to the media folder without needing to configure anything else
 
-Root folders on Sonarr can be set as the following:
+Root folders on Sonarr can be set as the following:<br>
 ![Alt text](sonarrrootfolder.png)
 
-For downloading episodes with naming as TBA, you must set the following configurations:
+For downloading episodes with naming as TBA, you must set the following configurations:<br>
 ![Alt text](sonarrimporting.png)
